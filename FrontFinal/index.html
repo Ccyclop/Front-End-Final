@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GourmetHub - Food Delivery</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header id="header">
+    <div class="container">
+      <div class="logo">GourmetHub</div>
+      <nav id="nav">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="burger" id="burger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h1>Delicious Food Delivered To You</h1>
+      <p>Fast, fresh, and full of flavor. Explore our daily specials.</p>
+    </div>
+  </section>
+
+  <section id="menu" class="section">
+    <div class="container">
+      <h2>Our Menu</h2>
+      <div class="menu-items">
+        <div class="item">Burger Supreme</div>
+        <div class="item">Vegan Delight</div>
+        <div class="item">Classic Pizza</div>
+        <div class="item">Avocado Toast</div>
+        <div class="item">Chicken Teriyaki Bowl</div>
+        <div class="item">Margherita Pizza</div>
+        <div class="item">Beef Shawarma Wrap</div>
+        <div class="item">Caesar Salad</div>
+        <div class="item">Grilled Salmon</div>
+        <div class="item">Pasta Carbonara</div>
+        <div class="item">Falafel Plate</div>
+        <div class="item">BBQ Ribs</div>
+        <div class="item">Cheese Quesadilla</div>
+        <div class="item">Spicy Tuna Roll</div>
+        <div class="item">Chocolate Lava Cake</div>
+      </div>
+           
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>
+        Welcome to <strong>GourmetHub</strong> – your local gateway to global flavors.
+        What started as a small family-owned kitchen has grown into a beloved food platform 
+        that connects people through the power of delicious meals. We believe that food is more than just taste —
+        it’s a memory, a mood, and a moment shared.
+      </p>
+      <p>
+        Our team of passionate chefs curates fresh, seasonal menus that blend tradition with creativity. 
+        From classic comfort food to trendy plant-based dishes, we make sure there’s something for every palate.
+        Every ingredient is sourced with care, supporting local farmers and ethical suppliers.
+      </p>
+      <p>
+        At GourmetHub, we prioritize fast delivery, exceptional service, and unforgettable taste. 
+        Whether you're craving a cozy night in with pasta or a power lunch at work, 
+        we deliver not just food — but an experience worth savoring.
+      </p>
+    </div>
+  </section>
+  
+
+  <section id="testimonials" class="section">
+    <div class="container">
+      <h2>Customer Reviews</h2>
+      <div id="reviews" class="reviews"></div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="password" id="password" placeholder="Password" required />
+        <button type="button" id="togglePass">Show</button>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 GourmetHub. All rights reserved.</p>
+    <div class="socials">
+      <a href="https://facebook.com" target="_blank">Facebook</a> |
+      <a href="https://instagram.com" target="_blank">Instagram</a> |
+      <a href="https://tiktok.com" target="_blank">TikTok</a>
+    </div>
+  </footer>
+  
+
+  <div id="cookie-banner">
+    <p>This site uses cookies to improve your experience.</p>
+    <button id="accept-cookies">Accept</button>
+  </div>
+
+  <button id="scrollToTop">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
